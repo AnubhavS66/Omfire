@@ -1,0 +1,12 @@
+{
+  "project_name": "Om Fire",
+  "version": "1.0.0",
+  "scenes": ["Splash", "Lobby", "CharSelect", "Battlefield", "GameOver"],
+  "global_variables": {
+    "player_hp": 100,
+    "selected_hero": "None",
+    "kill_count": 0,
+    "game_state": "stopped"
+  },
+  "layers": ["Background", "Player", "Enemies", "UI"]
+}
