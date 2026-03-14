@@ -1,0 +1,8 @@
+{
+  "Triggers": {
+    "OnPlayerSpawn": ["SetCameraTarget(Player)", "InitAbilities()"],
+    "OnEnemyDeath": ["PlaySound(Kill_Confirm)", "AddScore(100)"],
+    "OnZoneShrink": ["PlaySound(Siren)", "FlashScreenRed()"],
+    "OnGameOver": ["StopAllSounds()", "ShowFinalStats()"]
+  }
+}
