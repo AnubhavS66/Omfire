@@ -1,0 +1,12 @@
+{
+  "project_name": "Om Fire",
+  "developer": "Veer",
+  "scenes": ["Splash", "Lobby", "CharSelect", "Battlefield", "GameOver"],
+  "global_variables": {
+    "player_hp": 100,
+    "selected_hero": "Agni",
+    "kills": 0,
+    "current_ammo": 30,
+    "is_game_active": false
+  }
+}
